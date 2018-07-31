@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Smoke test using groups" verbose="2">
+	<test name="Smoke tests">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+		<class name = "com.iihs.tests.Smoke_test"></class>
+		<class name = "com.iihs.tests.Smoke_test"></class>
+		</classes>
+	</test>
+
+</suite>
