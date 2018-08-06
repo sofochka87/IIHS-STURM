@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebOrders Automation" verbose="2">
+
+	<test name="Automated tests">
+		<classes>
+		<class name = "com.iihs.tests.SPA_969_page"></class>
+		<class name = "com.iihs.tests.SPA_970_page"></class>
+		<class name = "com.iihs.tests.SPA_971_page"></class>
+		<class name = "com.iihs.tests.SPA_972_page"></class>
+		</classes>
+	</test>
+
+</suite>
