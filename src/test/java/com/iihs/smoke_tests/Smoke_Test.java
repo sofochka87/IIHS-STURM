@@ -27,12 +27,7 @@ public class Smoke_Test extends TestBase {
 
 	@Test(description = "Verify Search Button is displayed", priority = 3)
 	public void verify_search_button() {
-		if (facts.searchButton != null) {
-			System.out.println("Element is Visible");
-		} else {
-			System.out.println("Element is InVisible");
-		}
-		// assertTrue(facts.searchButton.isDisplayed());
+		 assertTrue(facts.searchButton.isDisplayed());
 	}
 	// Verify main tab menus : Yearly snapshot, Gender, Passenger vehicle occupants,
 	// State by state
