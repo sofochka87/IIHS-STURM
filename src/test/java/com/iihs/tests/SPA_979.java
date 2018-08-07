@@ -1,4 +1,4 @@
-package vasiliy.tests;
+package com.iihs.tests;
 
 import static org.testng.Assert.*;
 import org.testng.annotations.Test;
@@ -8,9 +8,8 @@ import java.util.List;
 
 import com.iihs.pages.Fatality_Facts;
 import com.iihs.pages.SPA_979_page;
-import com.iihs.tests.TestBase;
 
-public class SPA_979_VZ  extends TestBase{
+public class SPA_979  extends TestBase{
 	
 	Fatality_Facts facts = new Fatality_Facts();
 	

@@ -1,4 +1,4 @@
-package com.iihs.kaan;
+package com.iihs.tests;
 
 import static org.testng.Assert.assertTrue;
 
@@ -9,9 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import com.iihs.pages.SPA_970_page;
-import com.iihs.tests.TestBase;
 
-public class SPA_970_test extends TestBase {
+public class SPA_970 extends TestBase {
 	
 	SPA_970_page facts = new SPA_970_page();
 

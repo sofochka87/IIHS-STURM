@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.iihs.utilities.Driver;
 
-public class SPA_974_MOzPages extends SPA_973_MOzPages {
+public class SPA_974_page extends SPA_973_page {
 
-	public SPA_974_MOzPages() {
+	public SPA_974_page() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 

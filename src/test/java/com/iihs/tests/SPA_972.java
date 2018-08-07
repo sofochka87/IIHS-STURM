@@ -1,4 +1,4 @@
-package com.iihs.kaan;
+package com.iihs.tests;
 
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
@@ -9,11 +9,9 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.iihs.pages.SPA_971_page;
 import com.iihs.pages.SPA_972_page;
-import com.iihs.tests.TestBase;
 
-public class SPA_972_test extends TestBase {
+public class SPA_972 extends TestBase {
 	
 	SPA_972_page facts = new SPA_972_page();
 	

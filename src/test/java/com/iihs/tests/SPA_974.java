@@ -4,7 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
 
-public class SPA_974_MOz extends MozBase {
+public class SPA_974 extends MozBase {
 	@Test(description = "Site under test is available and testable.")
 	public void spa_974_Step1() {
 		

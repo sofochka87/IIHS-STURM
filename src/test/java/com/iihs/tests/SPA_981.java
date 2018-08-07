@@ -1,4 +1,4 @@
-package com.iihs.sofya;
+package com.iihs.tests;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 import com.iihs.pages.Fatality_Facts;
 import com.iihs.pages.SPA_981_page;
-import com.iihs.tests.TestBase;
 
 public class SPA_981 extends TestBase {
 

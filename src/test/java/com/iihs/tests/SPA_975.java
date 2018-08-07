@@ -8,7 +8,7 @@ import java.util.Arrays;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class SPA_975_MOz extends MozBase {
+public class SPA_975 extends MozBase {
 	
 	@Test(description = "Open browser , Navigate to url")
 	public void spa_975_Step1() {

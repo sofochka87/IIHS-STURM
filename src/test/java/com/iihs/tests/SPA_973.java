@@ -1,22 +1,11 @@
 package com.iihs.tests;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import org.openqa.selenium.By.ByXPath;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.iihs.pages.Fatality_Facts;
-import com.iihs.utilities.BrowserUtils;
-import com.iihs.utilities.Driver;
-
-public class SPA_973_MOz extends MozBase {
+public class SPA_973 extends MozBase {
 
 	@Test(description = "Site under test is available and testable.")
 	public void spa_973_Step1() {

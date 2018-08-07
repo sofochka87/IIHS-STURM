@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.iihs.utilities.Driver;
 
-public class SPA_973_MOzPages extends Fatality_Facts{
+public class SPA_973_page extends Fatality_Facts{
 
-	public SPA_973_MOzPages() {
+	public SPA_973_page() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 

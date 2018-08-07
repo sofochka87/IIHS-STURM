@@ -1,16 +1,14 @@
 package com.iihs.pages;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.iihs.utilities.Driver;
 
-public class SPA_975_MOzPages extends SPA_974_MOzPages {
+public class SPA_975_page extends SPA_974_page {
 
-	public SPA_975_MOzPages() {
+	public SPA_975_page() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	

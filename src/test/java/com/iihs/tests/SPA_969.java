@@ -1,4 +1,4 @@
-package com.iihs.kaan;
+package com.iihs.tests;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
@@ -14,11 +14,10 @@ import org.testng.annotations.Test;
 
 import com.iihs.pages.Fatality_Facts;
 import com.iihs.pages.SPA_969_page;
-import com.iihs.tests.TestBase;
 import com.iihs.utilities.BrowserUtils;
 import com.iihs.utilities.Driver;
 
-public class SPA_969_test extends TestBase {
+public class SPA_969 extends TestBase {
 
 	SPA_969_page facts = new SPA_969_page();
 

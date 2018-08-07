@@ -6,10 +6,10 @@
 				<include name="smoke"></include>
 			</run>
 		</groups>
-		<classes>
-		<class name = "com.iihs.tests.Smoke_test"></class>
-		<class name = "com.iihs.tests.Smoke_test"></class>
-		</classes>
+		<packages>
+			<package name="com.iihs.smoke_test" />
+			<package name="com.iihs.tests" />
+		</packages>
 	</test>
 
 </suite>

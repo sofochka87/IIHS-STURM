@@ -1,4 +1,4 @@
-package com.iihs.smoke_tests;
+package com.iihs.smoke_test;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
